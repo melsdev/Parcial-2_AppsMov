@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parcial 2"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:translationY="200dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario"
+            android:textStyle="normal"
+            android:textColor="#FFFFFF"
+            android:translationX="-140dp"
+            android:translationY="330dp"/>
+        <EditText
+            android:inputType=""
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/edtVal1"
+            android:translationX="-5dp"
+            android:translationY="330dp">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contraseña"
+            android:textStyle="normal"
+            android:textColor="#FFFFFF"
+            android:translationX="-125dp"
+            android:translationY="350dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/edtVal2"
+            android:translationX="-5dp"
+            android:translationY="355dp">
+        </EditText>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#FF0000"
+            android:onClick="Ingresar"
+            android:text="Ingresar"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:translationY="370dp">
+
+        </Button>
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
